@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .parent{
+        border:2px solid beige;
+        height: 800px;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        align-items: center;
+        
+        align-content: space-around;
+        background-color: lightgray;
+    }
+    .Box{
+        border:2px solid white;
+        height: 200px;
+        width: 250px;
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+    }
+    .nav{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: green;
+        height: 50px; 
+    }
+        ul{
+        flex-direction: row;
+        justify-content: space-evenly;
+        }
+            li{
+                background-color: green;
+            }
+        
+        
+        
+    
+    
+    </style>
+</head>
+<body>
+    <nav class ="navigation">
+        <ul>
+            <li><h1>Products</h1></li>
+            <li><h1>Discounts</h1></li>
+            <li><h1>Our Partners</h1></li>
+            <li><h1>About us</h1></li>
+        </ul>
+        
+    </nav>   
+    <div class="parent">
+        <div class="Box" id="Box-1">
+            <h1>Matte</h1>
+            <p>a subtle but elegant finish for low touch and delicate surfaces</p>
+            
+            <p>Explore</p>
+            <button style="background-color: green;">Sign up</button>
+
+        </div>
+        <div class="Box" id="Box-2">
+            <h1>Semi-Gloss</h1>
+            <p>a subtle but elegant finish for low touch and delicate surfaces</p>
+            
+            <p>Features 2</p>
+            <button style="background-color: green;">Sign up</button>
+        </div>
+        <div class="Box" id="Box-3">
+            <h1>High-Gloss</h1>
+            <p>$30/month</p>
+            <p>Features 1</p>
+            <p>Features 2</p>
+            <button style="background-color: green;">Sign up</button>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
